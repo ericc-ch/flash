@@ -4,7 +4,6 @@ import ReactDOM from "react-dom/client"
 import "@fontsource-variable/inter"
 import "@fontsource-variable/jetbrains-mono"
 
-import "./index.css"
 import App from "./app"
 
 import "./app/register"

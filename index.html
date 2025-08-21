@@ -9,11 +9,16 @@
       content="Update your comma device to the latest software"
     />
     <title>flash.comma.ai</title>
+
+    <link rel="stylesheet" href="./src/index.css">
   </head>
   <body>
-    <main-app></main-app>
+    <main-app>
+      <!-- Here to minimize color flashing -->
+      <div class="w-svw h-svh bg-white dark:bg-gray-900"></div>
+    </main-app>
 
-    <hr class="my-8" />
+    <hr class="my-4" />
 
     <div id="root"></div>
     <script type="module" src="./src/main.jsx"></script>
